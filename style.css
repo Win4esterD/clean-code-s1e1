@@ -4,22 +4,22 @@
   color: #333;
   font-family: lato, sans-serif;
 }
-.matrix {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.matrix-img {
+.matrix{
   width: 100%;
 }
-.matrix
+.header
 .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .matrix {
+  .header {
     text-align: center;
   }
 }
@@ -136,20 +136,18 @@ ul {
   color: #888;
 }
 
-.li
-.input[type=text] {
+
+.li .input[type=text] {
   display: none;
 }
 
-.li
-.edit-mode
-.input[type=text] {
+
+.edit-mode .input[type=text] {
   display: inline-block;
   width:224px;
 }
 
-.li
-.edit-mode
-.label {
+
+.edit-mode .label {
   display: none;
 }
