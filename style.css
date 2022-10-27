@@ -36,14 +36,14 @@
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .li, .h3 {
-  list-style:none;
+  list-style: none;
 }
 .input, .button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -63,7 +63,7 @@ ul {
   color: #333;
   font-weight: 700;
   font-size: 15px;
-    border-bottom: 2px solid #333;
+  border-bottom: 2px solid #333;
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
@@ -139,10 +139,10 @@ ul {
 }
 
 .li.edit-mode .input[type=text] {
-  display:inline-block;
+  display: inline-block;
   width:224px
 }
 
 .li.edit-mode .label {
-  display:none;
+  display: none;
 }
