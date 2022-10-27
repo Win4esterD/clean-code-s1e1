@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-.matrix { text-align: center;
-}
+  .matrix {
+    text-align: center;
+  }
 }
 .main {
   display: block;
@@ -129,14 +130,9 @@ ul {
 
 /* Completed */
 .completed {
-  text-decoration: line-through;  /* Тут добавил ";", На случай если сломается */
+  text-decoration: line-through  /* Тут добавил ";", На случай если сломается */
   color: #888;
 }
-
-/* Edit Task */
-/* ul .li .input[type=text] {
-  display: none
-} */
 
 .li .input[type=text] {
   display: none
