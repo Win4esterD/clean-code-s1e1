@@ -13,7 +13,8 @@
 .matrix-img {
   width: 100%;
 }
-.matrix .more-inf {
+.matrix
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -39,10 +40,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-.li, .h3 {
+.li,
+.h3 {
   list-style: none;
 }
-.input, .button{
+.input,
+.button{
   outline: none;
 }
 .button {
@@ -133,15 +136,20 @@ ul {
   color: #888;
 }
 
-.li .input[type=text] {
+.li
+.input[type=text] {
   display: none;
 }
 
-.li.edit-mode .input[type=text] {
+.li
+.edit-mode
+.input[type=text] {
   display: inline-block;
   width:224px;
 }
 
-.li.edit-mode .label {
+.li
+.edit-mode
+.label {
   display: none;
 }
