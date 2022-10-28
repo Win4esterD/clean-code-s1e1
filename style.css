@@ -137,7 +137,7 @@ ul {
 }
 
 
-.li .input[type=text] {
+.input[type=text]:not(.add-task__new-task) {
   display: none;
 }
 
