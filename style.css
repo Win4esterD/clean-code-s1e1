@@ -36,7 +36,8 @@
 .add-task {
   display: flex;
 }
-ul {
+.pending,
+.done{
   margin: 0;
   padding: 0px;
 }
